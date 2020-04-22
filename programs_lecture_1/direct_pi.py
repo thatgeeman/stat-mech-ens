@@ -1,6 +1,6 @@
 import random
 
-n_trials = 4000000
+n_trials = 40000
 n_hits = 0 #initial
 side=4.0
 radius=side/2
