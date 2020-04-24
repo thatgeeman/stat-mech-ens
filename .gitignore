@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+# solutions
+solutions_week_*/*.py
+solutions_week_*/text_week_*
+
 # Distribution / packaging
 .Python
 build/
