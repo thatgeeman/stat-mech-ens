@@ -1,0 +1,11 @@
+a=$1
+echo $a > message
+date >> message
+echo "submitting recent update" >> message
+echo "from laptop" >> message
+git add .
+wait
+msg=$(cat message)
+git commit -m "$msg"
+wait 
+git push
